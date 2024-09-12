@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #fff;
+    background-color: #f1f1f1;
     color: #000;
     margin: 0;
     text-align: left;
@@ -79,7 +79,7 @@ ul#myList li {
 }
 
 .checked {
-    background-color: #e0ffe0;
+    background-color: #ffffff;
 }
 
 footer.imagem-inferior-direita {
@@ -91,7 +91,7 @@ footer.imagem-inferior-direita {
 
 button#save {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #5a5a5a;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -100,7 +100,7 @@ button#save {
 }
 
 button#save:hover {
-    background-color: #0056b3;
+    background-color: #474747;
 }
 
 /* Responsividade */
@@ -129,4 +129,23 @@ button#save:hover {
         height: auto;
     }
 }
+button {
+    background-color: #5a5a5a; /* Cor de fundo verde */
+    color: white; /* Cor do texto branca */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor em formato de mão */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 10px 5px; /* Espaçamento ao redor do botão */
+    transition: background-color 0.3s ease; /* Transição suave para o hover */
+}
 
+button:hover {
+    background-color: #474747; /* Cor mais escura ao passar o mouse */
+}
+
+button:active {
+    background-color: #3e8e41; /* Cor quando o botão é clicado */
+    transform: scale(0.98); /* Leve efeito de clique (diminui o botão um pouco) */
+}
